@@ -1,10 +1,10 @@
 
 package com.mycompany.currencyconverter;
-
+import backend.fileManager;
 
 public class CurrencyConverter {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        fileManager.readfile();
     }
 }
